@@ -1,38 +1,23 @@
 # Ali AlQattan
 
-Software engineer in Manama, Bahrain. I run AWS operations for a licensed digital bank
-by day, and build my own products the rest of the time — all of them live, self-hosted,
-and one click away at **[exidex.dev](https://exidex.dev)**.
+Software engineer in Manama, Bahrain, building AI agent tools and production platform automation. I am looking first for remote AI/developer tooling roles, and for software/platform roles in the Gulf.
 
-Everything below is running software you can open right now, not a demo reel.
+[Portfolio](https://exidex.dev) · [CV](https://exidex.dev/resume) · [Contact](https://exidex.dev/contact)
 
-### What I've shipped
+## Engineering work
 
-| | |
-|---|---|
-| **[Payments QA Framework](https://exidex.dev/payments-qa/)** | End-to-end automation for a fintech payments platform. Cucumber/BDD specs drive a real app and assert at three levels at once — UI, HTTP API, and the ledger of record. CI-gated. [Source](https://github.com/AlqattanDev/payments-qa-framework). |
-| **[grokctl](https://exidex.dev/grokctl/)** | Drives Grok Imagine through real Chrome over CDP. Every result proven by bytes on disk, never by the page's word. |
-| **[Vox](https://exidex.dev/vox/)** | Local shared voice for every AI agent on your Mac. One mic, many voices, no cloud STT. |
-| **[RIFTLESS](https://exidex.dev/riftless/)** | 1v1 single-lane MOBA in the browser — rollback netcode over WebRTC, phone vs phone or you vs the bot. |
-| **[Mobilescape](https://exidex.dev/mobilescape/)** | A tiny RuneScape for your thumb — a shared world that keeps working while you sleep. |
-| **[KOUT](https://exidex.dev/kout/)** | Bahrain's partnership card game as a native LÖVE game: full 32-card ruleset, offline bots parity-locked to the server engine, online play. |
+- **[Vox](https://exidex.dev/projects#vox-case-study)** — a shared voice runtime and MCP server for coding agents, with local whisper.cpp/Kokoro speech processing, reconnectable clients and queued audio turns. Runs locally on a Mac; the website explains the project. Source private.
+- **[room](https://exidex.dev/projects#room-case-study)** — tmux tooling that makes each agent’s state visible in pane labels, window names and the status bar. Its output boundary handles untrusted agent text before tmux interprets it. Source private; public engineering overview.
+- **[Messages API bridge](https://github.com/AlqattanDev/kiro-claude-bridge)** — an inspectable TypeScript proxy translating requests and streaming events between two API protocols. Zero runtime dependencies; requires the user’s own backend account and a local Node runtime.
+- **[Payments QA Framework](https://github.com/AlqattanDev/payments-qa-framework)** — a self-contained fictional payments app and verification framework. Scenarios check browser behavior, HTTP responses and the SQLite ledger. [Interactive demonstration](https://exidex.dev/payments-qa/).
+- **[bro](https://github.com/AlqattanDev/bro)** — a macOS menu-bar companion with a durable request queue, voice, a floating answer panel and explicit screen-capture controls. Requires local installation and a configured agent backend.
 
-Fifteen more in the [Store](https://exidex.dev/store) — games, developer tools, agent
-infrastructure and mobile apps.
+## Production experience
 
-### How I work
+At Bank ABC (ila Bank), I build and maintain AWS platform automation across Bahrain and Ireland: Terraform infrastructure, Python/boto3 workflows, CI/CD and internal operations tooling in a regulated environment. Employer systems and code remain private.
 
-Systems before screens. Tests before "done". Everything I ship redeploys itself when I
-push, gated on a real test suite — a demo you can't visit doesn't count.
+Earlier work includes Flutter and web products, a newsroom distribution pipeline, and an employee-management platform used by institutes in Bahrain.
 
-I build at this rate by treating AI agents as a workforce and holding their output to
-production standard: directing them, reviewing them, and gating everything behind tests
-that actually run.
+**Python · TypeScript · AWS · Terraform · CI/CD · MCP · Flutter · React**
 
-**TypeScript · Python · React · Node · Flutter · Rust · AWS · Terraform · Playwright · Cucumber · Selenium · Jenkins · GitHub Actions**
-
-Most of the product repos above are private — the work itself is public at
-[exidex.dev](https://exidex.dev), where you can use any of it without installing anything.
-
-📍 Manama, Bahrain — open to remote work with European and US teams
-🔗 [exidex.dev](https://exidex.dev) · [LinkedIn](https://www.linkedin.com/in/alqattanali) · exidiful@gmail.com
+More work, including playable games, is on [the portfolio](https://exidex.dev/projects).
