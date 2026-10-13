@@ -16,11 +16,10 @@ I am looking first for remote AI/agent-tooling and developer-tool roles, and for
 - **[bro](https://github.com/AlqattanDev/bro)** — a macOS menu-bar companion with a durable request queue, voice, a floating answer panel and explicit screen-capture controls. Requires local installation and a configured agent backend.
 - **[room](https://exidex.dev/breakdowns/room-untrusted)** *(retired)* — tmux tooling that made each agent’s state visible in pane labels, window names and the status bar. The write-up covers handling untrusted agent output before tmux interprets it.
 - **[The Grove](https://exidex.dev/p/the-grove)** — a persistent multiplayer browser town, one of the self-hosted games on the portfolio.
-- **[Payments QA Framework](https://github.com/AlqattanDev/payments-qa-framework)** — a self-contained fictional payments app with scenarios that check browser behavior, HTTP responses and the SQLite ledger. [Interactive demonstration](https://exidex.dev/payments-qa/).
 
 ## Production experience
 
-At Bank ABC (ila Bank), I build and maintain AWS platform automation across Bahrain and Ireland: Terraform infrastructure, Python/boto3 workflows, Jenkins CI/CD, monitoring for AML and payment systems, and a guarded toolkit that lets AI coding agents work on production infrastructure under audit. Employer systems and code remain private; [The Guardrails Are the Product](https://exidex.dev/breakdowns/guardrails-product) explains the approach with synthetic examples.
+At Bank ABC (ila Bank), I run cloud operations for a licensed digital bank in Bahrain and Jordan: Jenkins production deploys, Python and Systems Manager automation, Terraform modules, the legacy core-banking estate, the monitoring that emails the service desk, and a guarded toolkit that lets AI coding agents work on production infrastructure under audit. Employer systems and code remain private; [The Guardrails Are the Product](https://exidex.dev/breakdowns/guardrails-product) explains the approach with synthetic examples.
 
 Earlier work includes Flutter and web products, a newsroom distribution pipeline, and an employee-management platform used by institutes in Bahrain.
 
